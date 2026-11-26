@@ -236,6 +236,28 @@ ul,ol{margin:0;padding:0;list-style:none}
 .area li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:2px;background:var(--salvia)}
 .nota{margin-top:26px;font-size:15px;color:var(--tinta-suave);max-width:70ch}
 
+/* automações: quatro frentes, cada uma com um exemplo real */
+.area{display:flex;flex-direction:column;gap:10px}
+.area>p:not(.exemplo){font-size:15.5px;line-height:1.55;color:var(--tinta-suave)}
+.exemplo{margin-top:auto;padding:14px 16px;border-radius:var(--r-md);background:var(--papel-tinto);font-size:15px;line-height:1.55;color:var(--tinta)}
+.area h3+p{margin-bottom:6px}
+.exemplo b{display:block;font:500 12px/18px var(--ft);letter-spacing:.08em;text-transform:uppercase;color:var(--salvia);margin-bottom:4px}
+.oficial{display:grid;grid-template-columns:46px minmax(0,1fr);gap:18px;align-items:start;margin-top:28px;padding:24px;border-radius:var(--r-lg);background:var(--papel-elevado);border:1px solid var(--linha);border-left:4px solid var(--petroleo)}
+@media (max-width:600px){.oficial{grid-template-columns:minmax(0,1fr);gap:12px;padding:20px}}
+.oficial h3{font-size:19px;line-height:1.3}
+.oficial p{margin-top:6px;color:var(--tinta-suave);max-width:78ch}
+/* produtos: padrão LCS e customização */
+.produtos{display:grid;gap:16px;margin-top:22px}
+@media (min-width:800px){.produtos{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
+.produto{display:grid;gap:12px;align-content:start;min-width:0;padding:26px;border-radius:var(--r-lg);background:var(--papel);border:1px solid var(--linha)}
+.produto .tag{justify-self:start}
+.produto.sob .tag{color:var(--petroleo);background:var(--nevoa)}
+.produto h4{margin:0;font:400 20px/1.3 var(--ft);color:var(--tinta)}
+.produto ul{display:grid;gap:10px}
+.produto li{position:relative;padding-left:18px;font-size:15.5px;line-height:1.5;color:var(--tinta-suave)}
+.produto li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:2px;background:var(--salvia)}
+.produto.sob li::before{background:var(--petroleo)}
+
 /* para quem */
 .publicos{display:grid;gap:16px;margin-top:44px}
 @media (min-width:760px){.publicos{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
