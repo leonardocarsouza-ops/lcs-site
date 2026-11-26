@@ -3,267 +3,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="format-detection" content="telephone=no">
+<title>LCS Consultoria</title>
+<meta name="description" content="Consultoria de processos e automação contábil no ERP Único: processos formalizados e automatizados antes da capacitação da equipe. Conferências que já rodam sozinhas, possibilidades de automação e mentoria.">
+<meta name="theme-color" content="#1b3440">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://lcsconsultoriaonline.com.br/">
 <meta property="og:url" content="https://lcsconsultoriaonline.com.br/">
 <meta property="og:title" content="LCS Consultoria">
-<meta property="og:description" content="Consultoria de processos e automação contábil no ERP Único: processos formalizados e automatizados antes da capacitação da equipe. Escritórios contábeis e contabilidade interna.">
-<meta property="og:image" content="https://lcsconsultoriaonline.com.br/foto-leonardo.jpg">
+<meta property="og:description" content="Consultoria de processos e automação contábil no ERP Único: processos formalizados e automatizados antes da capacitação da equipe. Conferências que já rodam sozinhas, possibilidades de automação e mentoria.">
+<meta property="og:image" content="https://lcsconsultoriaonline.com.br/og-lcs.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="LCS Consultoria: processos claros e automatizados antes de qualquer treinamento">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:type" content="website">
-<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
-<title>LCS Consultoria</title>
-<meta name="description" content="Consultoria de processos e automação contábil no ERP Único: processos formalizados e automatizados antes da capacitação da equipe. Escritórios contábeis e contabilidade interna.">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lexend:wght@300;400;500&display=swap">
-<style>
-/* Layout: a página é um roteiro com começo e fim. Abre no método, passa pelas frentes e pelo exemplo, e termina no contato. A trilha "começa → termina" é o desenho que se repete. */
-:root{
-  --papel:#f3f5f6; --papel-elevado:#ffffff; --papel-tinto:#e8eff2;
-  --linha:#d9e0e4; --linha-forte:#bfcbd2;
-  --tinta:#1e2a35; --tinta-suave:#4f5e6a;
-  --petroleo:#2c5a6b; --sobre-petroleo:#ffffff;
-  --nevoa:#dce8ec; --salvia:#44705a; --salvia-suave:#e1ede6;
-  --alerta:#a8453a; --alerta-suave:#f6e8e5;
-  --profundo:#1b3440; --sobre-profundo:#f3f5f6; --nevoa-profundo:#a9c3cc; --brilho-profundo:rgba(140,188,204,.16);
-  --areia:#e6c27a; --sobre-areia:#1e2a35;
-  --vidro:rgba(243,245,246,.84);
-  --sombra:0 1px 2px rgba(27,52,64,.06),0 10px 28px -14px rgba(27,52,64,.22);
-  --sombra-alta:0 2px 6px rgba(27,52,64,.07),0 24px 48px -22px rgba(27,52,64,.34);
-  --ft:Lexend,"Segoe UI",system-ui,sans-serif;
-  --fx:"Atkinson Hyperlegible","Segoe UI",system-ui,sans-serif;
-  --r-sm:6px; --r-md:12px; --r-lg:20px;
-  --largura:1120px;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --papel:#121b22; --papel-elevado:#19242d; --papel-tinto:#172730;
-    --linha:#29373f; --linha-forte:#3b4c57;
-    --tinta:#e6ecef; --tinta-suave:#a7b4bd;
-    --petroleo:#8cbccc; --sobre-petroleo:#0f2129;
-    --nevoa:#1d3742; --salvia:#93c2a8; --salvia-suave:#1b3026;
-    --alerta:#e8907f; --alerta-suave:#3a2421;
-    --vidro:rgba(18,27,34,.82);
-    --sombra:0 1px 2px rgba(0,0,0,.3),0 10px 28px -14px rgba(0,0,0,.55);
-    --sombra-alta:0 2px 6px rgba(0,0,0,.3),0 24px 48px -22px rgba(0,0,0,.7);
-    color-scheme:dark;
-  }
-}
-:root[data-theme="dark"]{
-  --papel:#121b22; --papel-elevado:#19242d; --papel-tinto:#172730;
-  --linha:#29373f; --linha-forte:#3b4c57;
-  --tinta:#e6ecef; --tinta-suave:#a7b4bd;
-  --petroleo:#8cbccc; --sobre-petroleo:#0f2129;
-  --nevoa:#1d3742; --salvia:#93c2a8; --salvia-suave:#1b3026;
-  --alerta:#e8907f; --alerta-suave:#3a2421;
-  --vidro:rgba(18,27,34,.82);
-  --sombra:0 1px 2px rgba(0,0,0,.3),0 10px 28px -14px rgba(0,0,0,.55);
-  --sombra-alta:0 2px 6px rgba(0,0,0,.3),0 24px 48px -22px rgba(0,0,0,.7);
-  color-scheme:dark;
-}
-
-*{box-sizing:border-box}
-[hidden]{display:none!important}
-html{scroll-behavior:smooth;scroll-padding-top:84px}
-body{margin:0;background:var(--papel);color:var(--tinta);font:400 17px/1.65 var(--fx);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--papel)}
-a{color:var(--petroleo)}
-:focus-visible{outline:3px solid var(--petroleo);outline-offset:3px;border-radius:var(--r-sm)}
-img{max-width:100%;display:block}
-h1,h2,h3{font-family:var(--ft);font-weight:400;margin:0;color:var(--tinta);text-wrap:balance}
-p{margin:0;text-wrap:pretty}
-ul,ol{margin:0;padding:0;list-style:none}
-
-.faixa{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-.miolo{max-width:var(--largura);margin:0 auto}
-.secao{padding-block:clamp(64px,9vw,104px)}
-.secao.colada{padding-top:0}
-.banda{background:var(--papel-elevado);border-block:1px solid var(--linha)}
-.banda-tinta{background:var(--papel-tinto)}
-.rotulo{display:inline-flex;align-items:center;gap:10px;font:500 13px/18px var(--ft);letter-spacing:.1em;text-transform:uppercase;color:var(--salvia)}
-.rotulo::before{content:"";width:20px;height:1.5px;background:currentColor;border-radius:1px}
-.h2{font-size:clamp(28px,3.8vw,40px);line-height:1.16;font-weight:300;letter-spacing:-.012em;margin-top:14px;max-width:24ch}
-.texto{max-width:60ch;color:var(--tinta-suave);margin-top:18px}
-
-/* topo */
-.topo{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--vidro);-webkit-backdrop-filter:saturate(1.4) blur(14px);backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--linha)}
-.topo .miolo{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
-.marca{font-family:var(--ft);font-size:20px;color:var(--petroleo);text-decoration:none;white-space:nowrap}
-.marca b{font-weight:500;letter-spacing:.12em}
-.marca span{font-weight:300;margin-left:6px}
-.topo nav{display:flex;align-items:center;gap:4px}
-.topo nav a{font:400 15px/1 var(--ft);color:var(--tinta-suave);text-decoration:none;padding:10px 12px;border-radius:999px;transition:color .2s,background-color .2s}
-.topo nav a:hover{color:var(--petroleo);background:var(--papel-tinto)}
-.topo nav a.chamada{margin-left:6px;padding:11px 18px;background:var(--petroleo);color:var(--sobre-petroleo)}
-.topo nav a.chamada:hover{background:var(--petroleo);color:var(--sobre-petroleo);filter:brightness(1.08)}
-.topo nav .so-largo{display:none}
-@media (min-width:860px){.topo nav .so-largo{display:inline-block}}
-
-/* abertura */
-.abertura{position:relative;isolation:isolate;overflow:hidden;padding-block:clamp(40px,6vw,80px) clamp(56px,8vw,96px)}
-.abertura::before,.abertura::after{content:"";position:absolute;z-index:-1;border-radius:50%;pointer-events:none}
-.abertura::before{width:min(760px,110vw);aspect-ratio:1;right:-18%;top:-30%;background:radial-gradient(closest-side,var(--nevoa),transparent)}
-.abertura::after{width:min(520px,90vw);aspect-ratio:1;left:-14%;bottom:-38%;background:radial-gradient(closest-side,var(--salvia-suave),transparent)}
-.abertura .miolo{display:grid;gap:44px;align-items:center}
-@media (min-width:920px){.abertura .miolo{grid-template-columns:minmax(0,1.18fr) minmax(0,.82fr);gap:72px}}
-.abertura h1{font-size:clamp(36px,5.4vw,60px);line-height:1.08;font-weight:300;letter-spacing:-.022em;margin-top:18px;max-width:15ch}
-.abertura h1 em{font-style:normal;font-weight:400;color:var(--petroleo);background:linear-gradient(transparent 66%,var(--nevoa) 66%,var(--nevoa) 94%,transparent 94%);-webkit-box-decoration-break:clone;box-decoration-break:clone;padding-inline:.04em}
-.abertura .texto{font-size:18px;margin-top:26px}
-.acoes{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
-.botao{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:12px 24px;border-radius:999px;font:500 16px/1.2 var(--ft);text-decoration:none;border:1.5px solid var(--petroleo);cursor:pointer;transition:transform .2s,box-shadow .2s,background-color .2s,filter .2s}
-.botao svg{width:20px;height:20px;flex:none}
-.botao.cheio{background:var(--petroleo);color:var(--sobre-petroleo);box-shadow:var(--sombra)}
-.botao.cheio:hover{transform:translateY(-1px);box-shadow:var(--sombra-alta);filter:brightness(1.06)}
-.botao.vazado{background:transparent;color:var(--petroleo)}
-.botao.vazado:hover{background:var(--papel-tinto)}
-/* ficha ao lado da abertura: foto pequena, números e a ordem do trabalho */
-.ficha{min-width:0;width:100%;max-width:440px;padding:clamp(22px,3vw,30px);background:var(--papel-elevado);border:1px solid var(--linha);border-radius:var(--r-lg);box-shadow:var(--sombra)}
-@media (min-width:920px){.ficha{justify-self:end}}
-.ficha-quem{display:flex;align-items:center;gap:14px;padding-bottom:20px;border-bottom:1px solid var(--linha)}
-.ficha-quem img{width:56px;height:56px;flex:none;border-radius:50%;object-fit:cover;object-position:50% 14%;background:var(--profundo);box-shadow:0 0 0 3px var(--papel-elevado),0 0 0 4.5px var(--nevoa)}
-.ficha-quem p{min-width:0;font-size:14px;line-height:1.4;color:var(--tinta-suave)}
-.ficha-quem b{display:block;font:500 16px/1.3 var(--ft);color:var(--tinta)}
-.fatos{margin:0}
-.fatos div{display:grid;grid-template-columns:5.2em minmax(0,1fr);gap:14px;align-items:baseline;padding-block:16px;border-bottom:1px solid var(--linha)}
-.fatos dt{font:300 clamp(26px,3vw,32px)/1 var(--ft);color:var(--petroleo);letter-spacing:-.015em;font-variant-numeric:tabular-nums}
-.fatos dd{margin:0;font-size:15px;line-height:1.45;color:var(--tinta-suave)}
-.fatos div:last-child dt{font-size:clamp(20px,2.2vw,24px)}
-.ordem{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin-top:20px;padding:11px 16px;border-radius:999px;background:var(--papel-tinto);font:400 13px/1.2 var(--ft);color:var(--tinta)}
-.ordem i{width:7px;height:7px;border-radius:50%;background:var(--salvia);flex:none}
-.ordem s{text-decoration:none;color:var(--linha-forte)}
-
-/* clientes */
-.clientes{padding-block:30px}
-.clientes .miolo{display:grid;gap:18px}
-.grupo{display:grid;gap:8px;align-items:baseline;min-width:0}
-@media (min-width:860px){.grupo{grid-template-columns:250px minmax(0,1fr);gap:24px}}
-.grupo-rot{font:400 15px/1.4 var(--ft);color:var(--tinta-suave)}
-/* o ponto separador fica à esquerda de cada nome; o primeiro de cada linha some no recorte da caixa */
-.nomes-caixa{overflow:hidden;min-width:0}
-.nomes{display:flex;flex-wrap:wrap;align-items:center;row-gap:6px;margin-left:-37px}
-.nomes li{position:relative;padding-left:37px;font:400 clamp(18px,2.1vw,22px)/1.3 var(--ft);color:var(--tinta);letter-spacing:.01em}
-.nomes li::before{content:"";position:absolute;left:16px;top:50%;width:5px;height:5px;margin-top:-2.5px;border-radius:50%;background:var(--linha-forte)}
-.nomes li.outros{font-size:15px;color:var(--tinta-suave)}
-.grupo+.grupo{padding-top:18px;border-top:1px dashed var(--linha)}
-
-/* método */
-.trilha{position:relative;display:grid;gap:32px;margin-top:52px;counter-reset:etapa}
-.trilha::before{content:"";position:absolute;left:21px;top:24px;bottom:24px;width:1.5px;background:linear-gradient(var(--salvia),var(--petroleo))}
-.trilha li{position:relative;padding-left:68px;min-width:0;counter-increment:etapa}
-.trilha li::before{content:counter(etapa);position:absolute;left:0;top:0;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font:400 18px/1 var(--ft);color:var(--petroleo);background:var(--papel);border:1.5px solid var(--petroleo)}
-.trilha li:last-child::before{background:var(--petroleo);color:var(--sobre-petroleo)}
-.trilha h3{font-size:21px;line-height:1.3;padding-top:8px}
-.trilha p{margin-top:10px;color:var(--tinta-suave);max-width:38ch}
-.trilha .marco{display:block;font:500 12px/1 var(--ft);letter-spacing:.1em;text-transform:uppercase;color:var(--salvia);margin-bottom:8px}
-.trilha li:last-child .marco{color:var(--petroleo)}
-@media (min-width:860px){
-  .trilha{grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
-  .trilha::before{left:22px;right:calc(33.333% - 48.67px);top:21px;bottom:auto;width:auto;height:1.5px;background:linear-gradient(90deg,var(--salvia),var(--petroleo))}
-  .trilha li{padding-left:0;padding-top:70px}
-  .trilha h3{padding-top:0}
-}
-
-/* frentes */
-.frentes{display:grid;gap:16px;margin-top:44px}
-@media (min-width:760px){.frentes{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
-.frente{display:grid;gap:12px;align-content:start;min-width:0;padding:28px;background:var(--papel-elevado);border:1px solid var(--linha);border-radius:var(--r-lg);transition:transform .25s,box-shadow .25s,border-color .25s}
-.frente:hover{transform:translateY(-2px);box-shadow:var(--sombra-alta);border-color:var(--linha-forte)}
-.frente-topo{display:flex;align-items:center;justify-content:space-between;gap:12px}
-.icone{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:var(--nevoa);color:var(--petroleo);flex:none}
-.icone svg{width:22px;height:22px}
-.tag{font:500 12px/1 var(--ft);letter-spacing:.08em;text-transform:uppercase;color:var(--salvia);background:var(--salvia-suave);padding:7px 11px;border-radius:999px}
-.frente h3{font-size:21px;line-height:1.3;margin-top:8px}
-.frente p{color:var(--tinta-suave)}
-
-/* para quem */
-.publicos{display:grid;gap:16px;margin-top:44px}
-@media (min-width:760px){.publicos{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
-.publico{min-width:0;padding:30px;border-radius:var(--r-lg);background:var(--papel-tinto)}
-.publico h3{font-size:22px;line-height:1.3}
-.publico p{margin-top:10px;color:var(--tinta-suave)}
-.sinais-tit{font:400 18px/1.4 var(--ft);margin-top:56px}
-.sinais{display:grid;gap:0;margin-top:18px;border-top:1px solid var(--linha)}
-@media (min-width:860px){.sinais{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;border-top:0}}
-.sinais li{display:flex;gap:14px;align-items:baseline;min-width:0;padding:16px 0;border-bottom:1px solid var(--linha);color:var(--tinta)}
-@media (min-width:860px){.sinais li{border-bottom:0;border-top:1px solid var(--linha);padding-top:18px}}
-.sinais li::before{content:"";width:9px;height:9px;border-radius:3px;background:var(--salvia);flex:none;transform:translateY(-1px)}
-
-/* na prática */
-.pratica .miolo{display:grid;gap:48px;align-items:start}
-@media (min-width:920px){.pratica .miolo{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px}}
-.tela{margin:36px 0 0}
-.tela img{width:100%;border-radius:var(--r-md);border:6px solid var(--profundo);background:var(--profundo);box-shadow:var(--sombra-alta)}
-.tela figcaption{margin-top:12px;font-size:14px;color:var(--tinta-suave)}
-.proc{min-width:0;background:var(--papel-elevado);border:1px solid var(--linha);border-radius:var(--r-lg);box-shadow:var(--sombra);overflow:hidden}
-.proc-cab{display:grid;gap:6px;padding:20px 24px;background:var(--papel-tinto);border-bottom:1px solid var(--linha)}
-.proc-tipo{font:500 12px/1 var(--ft);letter-spacing:.1em;text-transform:uppercase;color:var(--salvia)}
-.proc-tit{font:400 19px/1.35 var(--ft);color:var(--tinta)}
-.proc-meta{font-size:13px;color:var(--tinta-suave)}
-.passos{padding:24px 24px 4px}
-.passos li{position:relative;display:grid;grid-template-columns:28px minmax(0,1fr);gap:16px;padding-bottom:20px}
-.passos li::after{content:"";position:absolute;left:13px;top:30px;bottom:2px;width:1.5px;background:var(--linha)}
-.passos li:last-child::after{display:none}
-.no{position:relative;z-index:1;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font:400 13px/1 var(--ft);color:var(--tinta-suave);background:var(--papel-elevado);border:1.5px solid var(--linha-forte)}
-.inicio .no{border-color:var(--salvia);background:var(--salvia-suave)}
-.inicio .no::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--salvia)}
-.fim .no{border-color:var(--petroleo);background:var(--petroleo);color:var(--sobre-petroleo)}
-.fim .no svg{width:14px;height:14px}
-.passos .corpo{padding-top:3px;min-width:0}
-.passos .marco{display:block;font:500 12px/1 var(--ft);letter-spacing:.1em;text-transform:uppercase;margin-bottom:7px}
-.inicio .marco{color:var(--salvia)}
-.fim .marco{color:var(--petroleo)}
-.auto{display:inline-flex;align-items:center;gap:6px;margin-bottom:7px;padding:5px 10px;border-radius:999px;font:500 12px/1 var(--ft);letter-spacing:.06em;text-transform:uppercase;color:var(--salvia);background:var(--salvia-suave)}
-.auto svg{width:13px;height:13px}
-.proc-alerta{margin:0 24px 24px;padding:14px 16px;border-radius:var(--r-md);background:var(--alerta-suave);font-size:15px;line-height:1.55;color:var(--tinta)}
-.proc-alerta b{display:block;font:500 12px/18px var(--ft);letter-spacing:.08em;text-transform:uppercase;color:var(--alerta);margin-bottom:2px}
-.proc-nota{margin-top:14px;font-size:13px;color:var(--tinta-suave)}
-
-/* quem conduz */
-.quem{display:grid;gap:8px 72px;align-items:start}
-@media (min-width:820px){.quem{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}.quem .h2{max-width:18ch}.quem>div+div{padding-top:22px}}
-.quem>div{min-width:0}
-.quem .texto+.texto{margin-top:14px}
-.assinatura{margin-top:32px;padding-top:24px;border-top:1px solid var(--linha);font:300 clamp(20px,2.4vw,24px)/1.4 var(--ft);color:var(--petroleo);max-width:32ch}
-
-/* perguntas */
-.faq{margin-top:36px;border-top:1px solid var(--linha);max-width:780px}
-.faq details{border-bottom:1px solid var(--linha)}
-.faq summary{list-style:none;cursor:pointer;position:relative;padding:22px 48px 22px 0;font:400 19px/1.4 var(--ft);color:var(--tinta);transition:color .2s}
-.faq summary:hover{color:var(--petroleo)}
-.faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"";position:absolute;right:6px;top:50%;width:12px;height:12px;margin-top:-8px;border-right:1.5px solid var(--petroleo);border-bottom:1.5px solid var(--petroleo);transform:rotate(45deg);transition:transform .25s}
-.faq details[open] summary::after{transform:rotate(225deg);margin-top:-2px}
-.faq details p{padding:0 0 22px;color:var(--tinta-suave);max-width:62ch}
-
-/* contato */
-.contato{position:relative;isolation:isolate;overflow:hidden;background:var(--profundo);color:var(--sobre-profundo)}
-.contato::before{content:"";position:absolute;z-index:-1;right:-12%;top:-45%;width:min(680px,100vw);aspect-ratio:1;border-radius:50%;background:radial-gradient(closest-side,var(--brilho-profundo),transparent)}
-.contato .rotulo{color:var(--areia)}
-.contato .h2{color:var(--sobre-profundo)}
-.contato .texto{color:var(--nevoa-profundo)}
-.contato .botao.cheio{background:var(--areia);border-color:var(--areia);color:var(--sobre-areia)}
-.email{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:30px;font-size:16px;color:var(--nevoa-profundo)}
-.email code{font:400 17px/1.4 var(--fx);color:var(--sobre-profundo);user-select:all;word-break:break-all}
-.copiar{font:500 14px/1 var(--ft);padding:11px 16px;border-radius:999px;border:1px solid var(--nevoa-profundo);background:transparent;color:var(--sobre-profundo);cursor:pointer;transition:background-color .2s}
-.copiar:hover{background:var(--brilho-profundo)}
-.rodape{background:var(--profundo);color:var(--nevoa-profundo);font-size:14px;padding-block:24px 40px;border-top:1px solid var(--brilho-profundo)}
-.rodape .miolo{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
-.rodape a{color:var(--sobre-profundo)}
-
-@media (prefers-reduced-motion: reduce){
-  html{scroll-behavior:auto}
-  *,*::before,*::after{transition:none!important}
-}
-</style>
+<link rel="stylesheet" href="/site.css">
+<script src="/site.js" defer></script>
 </head>
 <body>
-
 <header class="topo faixa">
   <div class="miolo">
     <a class="marca" href="#inicio" aria-label="LCS Consultoria, início"><b>LCS</b><span>Consultoria</span></a>
     <nav aria-label="Seções">
       <a class="so-largo" href="#metodo">Método</a>
       <a class="so-largo" href="#servicos">O que fazemos</a>
+      <a class="so-largo" href="#desenvolvido">Já desenvolvido</a>
+      <a class="so-largo" href="#mentoria">Mentoria</a>
       <a class="so-largo" href="#quem-conduz">Quem conduz</a>
       <a class="chamada" href="#contato">Fale comigo</a>
     </nav>
@@ -278,26 +50,25 @@ ul,ol{margin:0;padding:0;list-style:none}
         <h1>Processos claros e <em>automatizados</em> antes de qualquer treinamento.</h1>
         <p class="texto">A LCS desenha cada rotina do começo ao fim, automatiza o que o sistema já pode fazer e só então capacita a equipe. Para escritórios contábeis e empresas com contabilidade interna no ERP Único.</p>
         <div class="acoes">
-          <a class="botao cheio" href="https://ig.me/m/lcs.consultoria26" target="_blank" rel="noopener">
+          <a class="botao cheio" href="https://ig.me/m/lcs.consultoria26" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg>
             Mandar mensagem no Instagram
           </a>
-          <a class="botao vazado js-whats" href="#" target="_blank" rel="noopener" hidden>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"/></svg>
-            Falar no WhatsApp
-          </a>
-          <a class="botao vazado" href="#metodo">Ver como trabalhamos</a>
+          <a class="botao vazado" href="#desenvolvido">Ver o que já roda</a>
         </div>
       </div>
-      <aside class="ficha" aria-label="Quem conduz e números da LCS">
-        <div class="ficha-quem">
-          <img src="foto-leonardo.jpg" alt="Foto do Leonardo" width="56" height="56">
-          <p><b>Leonardo</b>Consultor de processos e sistemas contábeis</p>
-        </div>
+      <aside class="retrato-cartao" aria-label="Quem conduz e números da LCS">
+        <figure class="retrato">
+          <picture>
+            <source srcset="retrato-leonardo.webp" type="image/webp">
+            <img src="retrato-leonardo.jpg" alt="Leonardo, de terno azul-marinho e gravata dourada, sorrindo em retrato de estúdio" width="1080" height="1080" fetchpriority="high">
+          </picture>
+          <figcaption><b>Leonardo</b>Consultor de processos e sistemas contábeis</figcaption>
+        </figure>
         <dl class="fatos">
-          <div><dt>+15</dt><dd>anos em escritórios contábeis e multinacionais</dd></div>
+          <div><dt>+15</dt><dd>anos em escritórios e multinacionais</dd></div>
           <div><dt>+40</dt><dd>implantações do ERP Único</dd></div>
-          <div><dt>Brasil</dt><dd>atendimento online e presencial</dd></div>
+          <div><dt>Brasil</dt><dd>online e presencial</dd></div>
         </dl>
         <p class="ordem" aria-label="Ordem do trabalho: processo, automação e capacitação"><i></i>Processo <s aria-hidden="true">›</s> Automação <s aria-hidden="true">›</s> Capacitação</p>
       </aside>
@@ -385,7 +156,274 @@ ul,ol{margin:0;padding:0;list-style:none}
     </div>
   </section>
 
-  <section class="secao faixa" id="para-quem">
+  <section class="secao faixa banda" id="desenvolvido">
+    <div class="miolo">
+      <p class="rotulo">Já desenvolvido</p>
+      <h2 class="h2">Conferências que já rodam sozinhas</h2>
+      <p class="texto">Ferramentas próprias da LCS leem o banco do Único e mostram, numa tela, o que antes dependia de planilha e de memória. Cinco conferências do mês, da entrada do cliente ao fechamento:</p>
+
+      <div class="vitrine" id="vitrine">
+        <div class="abas" role="tablist" aria-label="Conferências">
+          <button class="aba" role="tab" type="button" id="aba-1" aria-controls="painel-1" aria-selected="true"><b>01</b>Cadastro</button>
+          <button class="aba" role="tab" type="button" id="aba-2" aria-controls="painel-2" aria-selected="false" tabindex="-1"><b>02</b>Faturamento</button>
+          <button class="aba" role="tab" type="button" id="aba-3" aria-controls="painel-3" aria-selected="false" tabindex="-1"><b>03</b>Retenções</button>
+          <button class="aba" role="tab" type="button" id="aba-4" aria-controls="painel-4" aria-selected="false" tabindex="-1"><b>04</b>Prazos</button>
+          <button class="aba" role="tab" type="button" id="aba-5" aria-controls="painel-5" aria-selected="false" tabindex="-1"><b>05</b>Fechamento</button>
+        </div>
+
+        <div class="paineis">
+          <article class="painel" id="painel-1" role="tabpanel" aria-labelledby="aba-1">
+            <div class="app-moldura">
+              <div class="app" role="img" aria-label="Tela de conferência do cadastro com a Receita Federal: 127 empresas, 124 conferem, 3 com divergência marcada para revisar">
+                <div class="app-barra"><i></i><i></i><i></i><span>Cadastro × Receita Federal</span><small>Carteira · 25/11/2026</small><em>Demonstração</em></div>
+                <div class="app-corpo">
+                  <div class="kpis">
+                    <div class="kpi"><small>Empresas</small><b>127</b><span>na carteira</span></div>
+                    <div class="kpi ok"><small>Conferem</small><b>124</b><span>com a Receita</span></div>
+                    <div class="kpi al"><small>Divergências</small><b>3</b><span>para revisar</span></div>
+                    <div class="kpi"><small>Irregulares</small><b>0</b><span>situação no CNPJ</span></div>
+                  </div>
+                  <div class="app-quadro">
+                    <h4>Empresas conferidas <span>3 divergências</span></h4>
+                    <table class="tab">
+                      <tr><th>Empresa</th><th>Situação</th><th>Atividade</th><th>Sócios</th><th>Resultado</th></tr>
+                      <tr><td>Empresa Demonstração 001</td><td>Ativa</td><td>Confere</td><td>Confere</td><td><span class="st ok">Ok</span></td></tr>
+                      <tr><td>Empresa Demonstração 014</td><td>Ativa</td><td>Diferente</td><td>Confere</td><td><span class="st al">Revisar</span></td></tr>
+                      <tr><td>Empresa Demonstração 027</td><td>Ativa</td><td>Confere</td><td>1 saída</td><td><span class="st al">Revisar</span></td></tr>
+                      <tr><td>Empresa Demonstração 033</td><td>Ativa</td><td>Confere</td><td>Confere</td><td><span class="st ok">Ok</span></td></tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="painel-texto">
+              <p class="painel-num">01 · Cadastro</p>
+              <h3>O cadastro do cliente bate com a Receita?</h3>
+              <p>Situação, atividade e sócios de cada empresa conferidos com a base pública do CNPJ, para a carteira inteira de uma vez.</p>
+              <ul class="checa">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>A divergência aparece antes da obrigação.</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Mudança de sócio ou de atividade não passa despercebida.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="painel" id="painel-2" role="tabpanel" aria-labelledby="aba-2">
+            <div class="app-moldura">
+              <div class="app" role="img" aria-label="Tela de faturamento do mês: R$ 382.620,26 em 1.214 notas, com gráfico diário que marca um pico e uma queda fora do padrão">
+                <div class="app-barra"><i></i><i></i><i></i><span>Faturamento do mês</span><small>Novembro · Empresa Demonstração 001</small><em>Demonstração</em></div>
+                <div class="app-corpo">
+                  <div class="kpis">
+                    <div class="kpi"><small>Faturamento</small><b>R$ 382.620</b><span>no mês</span></div>
+                    <div class="kpi"><small>Notas</small><b>1.214</b><span>emitidas</span></div>
+                    <div class="kpi"><small>Ticket médio</small><b>R$ 315,17</b><span>por nota</span></div>
+                    <div class="kpi"><small>Imposto</small><b>R$ 16.023</b><span>destacado</span></div>
+                  </div>
+                  <div class="app-quadro grafico">
+                    <h4>Faturamento por dia <span>1 pico e 1 queda fora do padrão</span></h4>
+                    <svg viewBox="0 0 300 80" preserveAspectRatio="none" aria-hidden="true"><rect class="b" x="0.0" y="41.6" width="7.2" height="38.4" rx="1.2"/><rect class="b" x="10.1" y="46.4" width="7.2" height="33.6" rx="1.2"/><rect class="b" x="20.19" y="40.0" width="7.2" height="40.0" rx="1.2"/><rect class="b" x="30.29" y="33.6" width="7.2" height="46.4" rx="1.2"/><rect class="b" x="40.39" y="48.8" width="7.2" height="31.2" rx="1.2"/><rect class="b" x="50.48" y="48.0" width="7.2" height="32.0" rx="1.2"/><rect class="b" x="60.58" y="28.8" width="7.2" height="51.2" rx="1.2"/><rect class="b" x="70.68" y="36.0" width="7.2" height="44.0" rx="1.2"/><rect class="b" x="80.77" y="47.2" width="7.2" height="32.8" rx="1.2"/><rect class="b" x="90.87" y="40.8" width="7.2" height="39.2" rx="1.2"/><rect class="b" x="100.97" y="35.2" width="7.2" height="44.8" rx="1.2"/><rect class="b" x="111.06" y="48.8" width="7.2" height="31.2" rx="1.2"/><rect class="b" x="121.16" y="36.8" width="7.2" height="43.2" rx="1.2"/><rect class="b" x="131.26" y="44.8" width="7.2" height="35.2" rx="1.2"/><rect class="b" x="141.35" y="48.8" width="7.2" height="31.2" rx="1.2"/><rect class="b" x="151.45" y="48.0" width="7.2" height="32.0" rx="1.2"/><rect class="b" x="161.54" y="39.2" width="7.2" height="40.8" rx="1.2"/><rect class="b pico" x="171.64" y="3.2" width="7.2" height="76.8" rx="1.2"/><rect class="b" x="181.74" y="48.0" width="7.2" height="32.0" rx="1.2"/><rect class="b" x="191.83" y="44.0" width="7.2" height="36.0" rx="1.2"/><rect class="b" x="201.93" y="48.0" width="7.2" height="32.0" rx="1.2"/><rect class="b" x="212.03" y="36.0" width="7.2" height="44.0" rx="1.2"/><rect class="b" x="222.12" y="39.2" width="7.2" height="40.8" rx="1.2"/><rect class="b vale" x="232.22" y="68.8" width="7.2" height="11.2" rx="1.2"/><rect class="b" x="242.32" y="28.8" width="7.2" height="51.2" rx="1.2"/><rect class="b" x="252.41" y="35.2" width="7.2" height="44.8" rx="1.2"/><rect class="b" x="262.51" y="47.2" width="7.2" height="32.8" rx="1.2"/><rect class="b" x="272.61" y="44.0" width="7.2" height="36.0" rx="1.2"/><rect class="b" x="282.7" y="33.6" width="7.2" height="46.4" rx="1.2"/><rect class="b" x="292.8" y="33.6" width="7.2" height="46.4" rx="1.2"/></svg>
+                    <div class="eixo"><span>01/11</span><span>08/11</span><span>15/11</span><span>22/11</span><span>30/11</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="painel-texto">
+              <p class="painel-num">02 · Faturamento</p>
+              <h3>O faturamento do mês faz sentido?</h3>
+              <p>Notas, faturamento e imposto somados direto do sistema, dia a dia, sem montar planilha.</p>
+              <ul class="checa">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Pico ou queda fora do padrão aparece no gráfico.</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Os números que o sócio pergunta toda semana, numa tela.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="painel" id="painel-3" role="tabpanel" aria-labelledby="aba-3">
+            <div class="app-moldura">
+              <div class="app" role="img" aria-label="Tela de conferência de retenções: totais de IRRF, CSRF, INSS e ISS, e uma nota marcada porque faltou a retenção de CSRF">
+                <div class="app-barra"><i></i><i></i><i></i><span>Retenções nas notas</span><small>Novembro · Empresa Demonstração 001</small><em>Demonstração</em></div>
+                <div class="app-corpo">
+                  <div class="kpis">
+                    <div class="kpi"><small>IRRF</small><b>R$ 2.713,40</b><span>48 notas</span></div>
+                    <div class="kpi"><small>PIS, Cofins, CSLL</small><b>R$ 8.412,93</b><span>48 notas</span></div>
+                    <div class="kpi"><small>INSS</small><b>R$ 6.378,53</b><span>12 notas</span></div>
+                    <div class="kpi al"><small>Fora da regra</small><b>1</b><span>nota para revisar</span></div>
+                  </div>
+                  <div class="app-quadro">
+                    <h4>Notas com retenção <span>conferidas pela regra do serviço</span></h4>
+                    <table class="tab">
+                      <tr><th>Nota</th><th>Prestador</th><th class="num">Valor</th><th class="num">Retido</th><th>Regra</th></tr>
+                      <tr><td>4215</td><td>Prestador Demonstração A</td><td class="num">12.400,00</td><td class="num">762,60</td><td><span class="st ok">Confere</span></td></tr>
+                      <tr><td>4219</td><td>Prestador Demonstração B</td><td class="num">8.950,00</td><td class="num">134,25</td><td><span class="st al">Faltou CSRF</span></td></tr>
+                      <tr><td>4233</td><td>Prestador Demonstração C</td><td class="num">3.200,00</td><td class="num">196,80</td><td><span class="st ok">Confere</span></td></tr>
+                      <tr><td>4240</td><td>Prestador Demonstração D</td><td class="num">5.600,00</td><td class="num">344,40</td><td><span class="st ok">Confere</span></td></tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="painel-texto">
+              <p class="painel-num">03 · Retenções</p>
+              <h3>As retenções estão certas?</h3>
+              <p>Cada nota com retenção conferida pela regra do serviço prestado, antes de a guia sair.</p>
+              <ul class="checa">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>O erro aparece na nota, não no fim do mês.</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Totais por tributo prontos para a apuração.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="painel" id="painel-4" role="tabpanel" aria-labelledby="aba-4">
+            <div class="app-moldura">
+              <div class="app" role="img" aria-label="Calendário de novembro de 2026 com obrigações do mês, dois feriados marcados e o dia de hoje em destaque">
+                <div class="app-barra"><i></i><i></i><i></i><span>Prazos do mês</span><small>Novembro de 2026 · São Paulo/SP</small><em>Demonstração</em></div>
+                <div class="app-corpo app-lado">
+                  <div class="app-quadro">
+                    <div class="cal">
+                      <b>dom</b><b>seg</b><b>ter</b><b>qua</b><b>qui</b><b>sex</b><b>sáb</b>
+                      <div>1</div><div class="fer">2<em>Feriado</em></div><div>3</div><div>4</div><div>5</div><div>6<em>Folha</em></div><div>7</div>
+                      <div>8</div><div>9</div><div>10<em>ISS</em></div><div>11</div><div>12</div><div>13<em>Retenções</em></div><div>14</div>
+                      <div>15</div><div>16</div><div>17</div><div>18</div><div>19</div><div class="fer">20<em>Feriado</em></div><div>21</div>
+                      <div>22</div><div>23</div><div>24</div><div class="hoje">25<em>PIS e Cofins</em></div><div>26</div><div>27</div><div>28</div>
+                      <div>29</div><div>30<em>IRPJ e CSLL</em></div><div class="vazio"></div><div class="vazio"></div><div class="vazio"></div><div class="vazio"></div><div class="vazio"></div>
+                    </div>
+                  </div>
+                  <div class="kpis">
+                    <div class="kpi"><small>Esta semana</small><b>1</b><span>obrigação</span></div>
+                    <div class="kpi"><small>Feriados</small><b>2</b><span>no mês</span></div>
+                    <div class="kpi ok"><small>Atrasadas</small><b>0</b><span>em aberto</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="painel-texto">
+              <p class="painel-num">04 · Prazos</p>
+              <h3>O que vence esta semana?</h3>
+              <p>Obrigações do mês e feriados da cidade de cada cliente, a partir de fontes oficiais.</p>
+              <ul class="checa">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Ninguém depende de lembrar.</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Feriado municipal entra no calendário certo.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="painel" id="painel-5" role="tabpanel" aria-labelledby="aba-5">
+            <div class="app-moldura">
+              <div class="app" role="img" aria-label="Tela de fechamento contábil: seis conferências, cinco certas e uma com diferença de R$ 1.250,00 marcada">
+                <div class="app-barra"><i></i><i></i><i></i><span>Fechamento contábil</span><small>Outubro · Empresa Demonstração 001</small><em>Demonstração</em></div>
+                <div class="app-corpo">
+                  <div class="kpis tres">
+                    <div class="kpi"><small>Receita</small><b>R$ 735.295</b><span>acumulada</span></div>
+                    <div class="kpi"><small>Resultado</small><b>R$ 251.066</b><span>no período</span></div>
+                    <div class="kpi"><small>Patrimônio líquido</small><b>R$ 4.018.571</b><span>no balanço</span></div>
+                  </div>
+                  <div class="app-quadro">
+                    <h4>Conferências do fechamento <span>5 de 6 certas</span></h4>
+                    <ul class="conf">
+                      <li><i>✓</i><span>Débitos iguais aos créditos</span></li>
+                      <li><i>✓</i><span>Ativo igual a passivo e PL</span></li>
+                      <li><i>✓</i><span>Resultado da DRE igual ao do PL</span></li>
+                      <li><i>✓</i><span>Caixa sem saldo negativo</span></li>
+                      <li><i>✓</i><span>Lançamentos com histórico</span></li>
+                      <li class="al"><i>!</i><span>Conta transitória</span><small>R$ 1.250,00</small></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="painel-texto">
+              <p class="painel-num">05 · Fechamento</p>
+              <h3>O balanço fecha?</h3>
+              <p>Débito igual a crédito, ativo igual a passivo e patrimônio, resultado batendo com o PL.</p>
+              <ul class="checa">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>O que não fecha aparece marcado, com o valor.</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>A revisão começa pelo que está errado.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <p class="legenda">Telas do LCS-CONECT, a ferramenta de apoio da LCS, redesenhadas com dados de demonstração. Nenhum dado de cliente aparece aqui.</p>
+      </div>
+
+      <h3 class="sub">Outras entregas já desenvolvidas</h3>
+      <div class="entregas">
+        <article class="entrega">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h10v18l-2.5-1.6L12 21l-2.5-1.6L7 21z"/><path d="M10 8h4M10 12h4"/></svg></span>
+          <h4>Emissor de NFS-e</h4>
+          <p>Emissão própria de notas de serviço, em produção.</p>
+        </article>
+        <article class="entrega">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h11M4 12h7M4 17h9"/><path d="M15 15l2 2 4-4"/></svg></span>
+          <h4>Conciliação de NFS-e</h4>
+          <p>Notas do portal nacional cruzadas com os relatórios da prefeitura. Ausentes e divergentes aparecem sozinhos.</p>
+        </article>
+        <article class="entrega">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9h6v6H9z"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg></span>
+          <h4>Cadastro de empresas em lote</h4>
+          <p>Robô que cadastra empresas no Único a partir da base pública do CNPJ.</p>
+        </article>
+        <article class="entrega">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h6M4 12h6M4 18h6"/><path d="M14 6h6M14 12h6M14 18h6"/><path d="M10 6l4 6-4 6"/></svg></span>
+          <h4>Migração de plano de contas</h4>
+          <p>De-para do plano de outro sistema para o Único, com análise de participantes.</p>
+        </article>
+        <article class="entrega">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h14v16H5z"/><path d="M9 8h6M9 12h6M9 16h3"/></svg></span>
+          <h4>Auditoria do LALUR e do LACS</h4>
+          <p>Fórmulas da Parte A comparadas com a base padrão do sistema e simulação do Lucro Real anual.</p>
+        </article>
+        <article class="entrega">
+          <span class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg></span>
+          <h4>Análise fiscal por CNPJ</h4>
+          <p>Cadastro cruzado com a atividade, os serviços das notas e as regras do Simples.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao faixa" id="possibilidades">
+    <div class="miolo">
+      <p class="rotulo">Possibilidades</p>
+      <h2 class="h2">O que mais dá para automatizar no Único</h2>
+      <p class="texto">Se o dado já está no sistema, a conferência pode ser automática. Alguns exemplos por área:</p>
+      <div class="areas">
+        <article class="area">
+          <h3>Fiscal</h3>
+          <ul>
+            <li>Classificação de notas por regra, sem digitação.</li>
+            <li>Retenções conferidas nota a nota.</li>
+            <li>Apuração conferida antes da guia.</li>
+          </ul>
+        </article>
+        <article class="area">
+          <h3>Contábil</h3>
+          <ul>
+            <li>Conciliação bancária por regras de classificação.</li>
+            <li>Conferências automáticas de fechamento.</li>
+            <li>Importação de outros sistemas sem redigitar.</li>
+          </ul>
+        </article>
+        <article class="area">
+          <h3>Pessoal</h3>
+          <ul>
+            <li>Conferência da folha antes do fechamento.</li>
+            <li>Encargos e guias batendo com a folha.</li>
+            <li>Calendário das obrigações trabalhistas.</li>
+          </ul>
+        </article>
+        <article class="area">
+          <h3>Gestão do escritório</h3>
+          <ul>
+            <li>Painel do mês por cliente.</li>
+            <li>Prazos e responsáveis numa tela.</li>
+            <li>Onde o retrabalho se concentra.</li>
+          </ul>
+        </article>
+      </div>
+      <p class="nota">Cada automação nasce de um processo mapeado: primeiro a rotina, depois a ferramenta. É isso que faz a automação durar.</p>
+    </div>
+  </section>
+
+  <section class="secao faixa banda-tinta" id="para-quem">
     <div class="miolo">
       <p class="rotulo">Para quem</p>
       <h2 class="h2">Escritórios contábeis e contabilidade interna</h2>
@@ -408,16 +446,13 @@ ul,ol{margin:0;padding:0;list-style:none}
     </div>
   </section>
 
-  <section class="secao faixa banda pratica" id="pratica">
+  <section class="secao faixa pratica" id="pratica">
     <div class="miolo">
       <div>
         <p class="rotulo">Na prática</p>
         <h2 class="h2">Um procedimento com começo, fim e automação no caminho</h2>
         <p class="texto">É assim que um processo fica formalizado: o ponto de partida, o ponto de chegada e só os passos que dependem de alguém. O que o sistema pode fazer, ele faz.</p>
-        <figure class="tela">
-          <img src="conferencias.jpg" alt="Seis conferências de fechamento contábil, cinco certas e uma com diferença marcada, com receita, resultado e patrimônio da empresa" width="1034" height="557" loading="lazy">
-          <figcaption>Conferência automática de fechamento, em base de demonstração.</figcaption>
-        </figure>
+        <p class="texto">Cada procedimento é escrito sobre as telas e as regras do próprio cliente, e revisado quando a rotina muda.</p>
       </div>
       <div>
         <div class="proc" role="group" aria-label="Exemplo de procedimento formalizado">
@@ -436,6 +471,41 @@ ul,ol{margin:0;padding:0;list-style:none}
           <div class="proc-alerta"><b>Atenção</b>Extrato importado duas vezes duplica os lançamentos. Confira o período antes de importar.</div>
         </div>
         <p class="proc-nota">Exemplo ilustrativo. Os procedimentos reais seguem as telas e as regras de cada cliente.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao faixa mentoria" id="mentoria">
+    <div class="miolo">
+      <p class="rotulo">Mentoria</p><span class="selo">Lista de interesse aberta</span>
+      <div class="mentoria-grade">
+        <div>
+          <h2 class="h2">Mentoria para quem conduz a rotina no Único</h2>
+          <p class="texto">Para líderes de escritório, coordenadores e analistas que querem organizar processos, automatizar conferências e preparar a equipe, com o direcionamento de quem já conduziu mais de 40 implantações.</p>
+          <h3 class="temas-tit">Temas</h3>
+          <ul class="temas">
+            <li>Mapear e formalizar processos</li>
+            <li>Parametrização e conferências no Único</li>
+            <li>Automação sem planilha paralela</li>
+            <li>Indicadores do mês</li>
+            <li>Rotina e formação da equipe</li>
+            <li>Migração para o Único</li>
+          </ul>
+          <div class="acoes">
+            <a class="botao cheio" href="https://ig.me/m/lcs.consultoria26" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg>
+              Entrar na lista de interesse
+            </a>
+          </div>
+          <p class="mentoria-nota">Pelo Instagram ou pelo e-mail do contato, com o assunto “Mentoria”. O formato e as turmas são definidos com quem entrar na lista.</p>
+        </div>
+        <div>
+          <ol class="passos-m" aria-label="Como a mentoria vai funcionar">
+            <li><div><h3>Encontros online</h3><p>Individuais ou em grupo pequeno, sempre a partir da rotina real de quem participa.</p></div></li>
+            <li><div><h3>Direcionamento por escrito</h3><p>Ao fim de cada encontro, um plano de ação com as prioridades e o próximo passo.</p></div></li>
+            <li><div><h3>Acompanhamento</h3><p>Revisão do que foi aplicado e ajuste do plano no encontro seguinte.</p></div></li>
+          </ol>
+        </div>
       </div>
     </div>
   </section>
@@ -464,6 +534,14 @@ ul,ol{margin:0;padding:0;list-style:none}
           <p>Não. Todo treinamento passa antes pelo processo: mapeamos, formalizamos e automatizamos a rotina, e a equipe aprende o processo pronto.</p>
         </details>
         <details>
+          <summary>As ferramentas funcionam no meu Único?</summary>
+          <p>Sim. Elas leem o banco do próprio Único, só para consulta, sem alterar nada. Cada instalação é avaliada antes, junto com a equipe de TI.</p>
+        </details>
+        <details>
+          <summary>Como vai funcionar a mentoria?</summary>
+          <p>Encontros online, individuais ou em grupo pequeno, com um plano de ação por escrito ao fim de cada um. Quem entrar na lista de interesse ajuda a definir o formato e as datas.</p>
+        </details>
+        <details>
           <summary>Atendem empresas com contabilidade interna?</summary>
           <p>Sim. Além de escritórios contábeis, atendemos startups do mercado financeiro, empresas e indústrias que usam o ERP Único na contabilidade interna.</p>
         </details>
@@ -490,13 +568,9 @@ ul,ol{margin:0;padding:0;list-style:none}
     <h2 class="h2">Conte qual rotina mais pesa hoje</h2>
     <p class="texto">Mande uma mensagem pelo Instagram ou por e-mail com o número de empresas e o departamento envolvido. A resposta vem por escrito.</p>
     <div class="acoes">
-      <a class="botao cheio" href="https://ig.me/m/lcs.consultoria26" target="_blank" rel="noopener">
+      <a class="botao cheio" href="https://ig.me/m/lcs.consultoria26" target="_blank" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg>
         Mandar mensagem no Instagram
-      </a>
-      <a class="botao vazado js-whats" href="#" target="_blank" rel="noopener" hidden>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"/></svg>
-        Falar no WhatsApp
       </a>
     </div>
     <p class="email">E-mail: <code id="email">leonardo@lcsconsultoriaonline.com.br</code><button class="copiar" id="copiar" type="button">Copiar e-mail</button></p>
@@ -506,33 +580,8 @@ ul,ol{margin:0;padding:0;list-style:none}
 <footer class="rodape faixa">
   <div class="miolo">
     <span>LCS Consultoria Gestão e Treinamentos de Sistemas · CNPJ 43.027.593/0001-92 · São Paulo/SP</span>
-    <a href="https://www.instagram.com/lcs.consultoria26/" target="_blank" rel="noopener">@lcs.consultoria26</a>
+    <a href="https://www.instagram.com/lcs.consultoria26/" target="_blank" rel="noopener noreferrer">@lcs.consultoria26</a>
   </div>
 </footer>
-
-<script>
-// WhatsApp comercial: preencha só com DDI + DDD + número (ex.: "5511900000000") para o botão aparecer.
-const WHATSAPP = "";
-const MENSAGEM = "Olá, Leonardo. Vim pelo site da LCS e quero conversar sobre a rotina da minha equipe.";
-if (WHATSAPP) {
-  document.querySelectorAll(".js-whats").forEach(a => {
-    a.href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(MENSAGEM);
-    a.hidden = false;
-  });
-}
-const botao = document.getElementById("copiar");
-botao.addEventListener("click", () => {
-  const alvo = document.getElementById("email");
-  const marcar = () => {
-    const r = document.createRange(); r.selectNodeContents(alvo);
-    const s = getSelection(); s.removeAllRanges(); s.addRange(r);
-    botao.textContent = "Selecionado: copie com o teclado";
-  };
-  try {
-    navigator.clipboard.writeText(alvo.textContent).then(() => { botao.textContent = "E-mail copiado"; }, marcar);
-  } catch (e) { marcar(); }
-});
-</script>
-
 </body>
 </html>
